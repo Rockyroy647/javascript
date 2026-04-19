@@ -1,0 +1,50 @@
+body{
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    margin-top: 20px;
+    color: black;
+}
+
+#loginpage{
+    
+    background-color: brown;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 300pxs;
+    text-shadow: 45px;
+}
+.loginpage{
+    height: 100px;
+    width: 100px;
+    flex-direction: column;
+    border-radius: 20px;
+    
+   
+    
+}
+button{
+   margin-top: 10px;
+ 
+ 
+    border: none;
+    color: white;
+    font-size: 40px;
+    justify-self: center;
+    border-radius: 10px;
+    background-color: rgb(71, 132, 71);
+}
+button:hover{
+    background: darkgreen;
+}
+input{
+    border-radius: 20px;
+    border: none;
+}

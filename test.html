@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id="show">0</h1>
+
+<button onclick="pos()">pos</button>
+<button onclick="neg()">neg</button>
+
+<h2>enter a number</h2>
+enter number =<input type="text" id="username">
+<button onclick="even()">number</button>
+<p id="result"></p>
+
+
+ <h3>Enter Password:</h3>
+  enter password<input type="password" id="userpassword">
+   <button onclick="submit()">password</button>
+
+  <p id="result"></p>
+
+
+<button id="toggleBtn" onclick="toggle()">OFF</button>
+
+
+
+
+<script >
+let count = 0
+function pos(){
+     count ++;
+        document.querySelector('#show').innerHTML=count;
+    
+}
+function neg(){
+    count --;
+    document.querySelector('#show').innerHTML=count;
+}
+
+function even(){
+    let a = document.querySelector('#username').value.trim();
+    let evenList = [];
+
+    for (let i = 1; i <= n; i++) {
+        if (i % 2 === 0) {
+          evenList.push(i);
+}
+document.querySelector('#username').value.trim(", ");
+    }
+}
+
+function checkStrength() {
+      let pass = document.querySelector("#userpassword").value;
+      let strength = "";
+
+      if (pass.length < 6) {
+        strength = "Weak ❌";
+      } 
+      else if (
+        pass.match(/[a-z]/) &&
+        pass.match(/[A-Z]/) &&
+        pass.match(/[0-9]/) &&
+        pass.match(/[@$!%*?&]/)
+      ) {
+        strength = "Strong 💪";
+      } 
+      else {
+        strength = "Medium ⚠️";
+      }
+document.querySelector("#result").innerText = strength;
+
+    }
+function toggle() {
+      let btn = document.querySelector("#toggleBtn");
+
+      if (btn.innerText === "OFF") {
+        btn.innerText = "ON";
+      } else {
+        btn.innerText = "OFF";
+      }
+    }
+
+
+</script>
+</body>
+</html>

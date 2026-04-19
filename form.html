@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            justify-content: center;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 500px;
+        
+        }
+.book{
+    box-shadow: 20px;
+    background-color: rgb(173, 133, 72 );
+    height: 400px;
+    width: 400px;
+    text-transform: capitalize;
+    
+}
+#sub{
+    background-color: rgb(54, 166, 46);
+
+    color: white;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="book">
+    <h1>information form</h1>
+<form onclick="return validation()">
+enter name<input type="text" id="username" >
+<p id="errname"></p>
+enter phone no<input type="text" id="num" >
+<P id="errphone"></P>
+ enter email id<input type="text" id="useremail" >
+<p id="erremail"></p>
+enter password<input type="text"  id="userpass" >
+<p id="errpass"></p>
+ cpassword = <input type="text"  id="cpass">
+<p id="errcpass"></p>
+<input type="submit" id="sub" onclick="return validation()">
+
+
+
+
+
+</form>
+</div>
+<script src="form.js"></script>
+</body>
+</html>

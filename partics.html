@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    #imghere{
+        width: 500px;
+        height: 500px;
+        border: 2px solid black;
+        background-image: url(bordar.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+
+</head>
+<body>
+    <h1 id="show">0</h1>
+
+<button onclick="inc()">inc</button>
+<button onclick="dec()">dec</button>
+
+<script>
+    let count = 0;
+    function inc(){
+        count ++;
+        document.querySelector('#show').innerHTML=count;
+    }
+let count = 0;
+function dec() 
+  count --;
+    document.querySelector('#show').innerHTML=count;
+    
+
+
+
+</script>
+
+<script src="partich.js"></script>
+</body>
+</html>
