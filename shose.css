@@ -1,0 +1,39 @@
+
+.shoes{
+  display: flex;
+  
+  background-color: #111;
+  padding: 15px;
+  border-radius: 15px;
+  text-align: justify;
+  transition: 0.67s;
+  width: calc(250px * 3);
+  animation: scroll 10s linear infinite;
+
+
+}
+.shoes img{
+    width: 150px;
+    border-radius: 10px;
+}
+body{
+    background-color: rgb(34, 32, 32);
+    color: white;
+}
+.shoes:hover{
+    transform: scale(5.5);
+    box-shadow: 5px 0px 20px green;
+}
+h1{
+    text-align: center;
+}
+@keyframes scroll {
+    0%{
+transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+
+    }
+    
+}
