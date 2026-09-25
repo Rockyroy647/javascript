@@ -1,0 +1,195 @@
+body{
+    background-color: white;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.navebar{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    padding: 10px 20px;
+    width: 100%;   /* full wigth leta hai agar app 50% daiya under hee reha gaya */
+   
+}
+.navebar input {
+    
+    width: 500px;        /* bada input box */
+    padding: 10px 15px;  /* andar space */
+    font-size: 16px;     /* text bada */
+    border-radius: 5px;
+    margin-right: 100px;
+   border-radius: 10px;
+}
+button{
+    width: 70px;    /* sine in dubal line aya reha tha*/
+    color: white;
+    background-color: rgb(114, 26, 26);
+    border-radius: 150px;
+}
+
+.travuza{
+   display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px 20px;
+
+}
+.navebar h1{
+    margin-right: auto;
+    background-color: orangered;
+    border-radius: 30px;
+}
+
+/*yeha sa dusra page ka css hai*/
+
+.ramshyam{
+    display: flex;
+   color: rgb(10, 10, 10);
+    justify-content:center;
+   justify-content: space-between;
+}
+.ramshyam a{
+    text-decoration: none;
+color: rgb(23, 22, 22);
+}
+
+.shyam{
+    display: flex;
+    text-align: center;
+    gap: 45px;
+    text-decoration: none;
+}
+.ramjee{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    justify-content: flex-end;
+}
+
+ .ramshyam img{
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+
+#banner{
+    display: flex;
+    
+    overflow: hidden;
+    justify-content: center;
+    border-radius: 20px;
+animation: banner 20s steps(6) infinite;
+animation-delay:  banner 10s;
+
+    
+}
+.movie{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+@keyframes banner{
+    
+  0%{
+     transform: translateX(0);
+    
+  } 100%
+   { transform: translateX(-50%);
+
+   }
+}
+
+/* movie image*/
+
+#movie-card{
+    display:flex;
+flex-wrap:wrap;
+justify-content:center;
+padding:30px;
+ gap: 40px;
+   
+}
+
+
+.movie-card{
+background:white;
+height: 100%;
+width:300;
+border-radius:10px;
+text-align:center;
+box-shadow:10px 10px 10px rgba(0,0,0,0.8);
+transition:0.3s;
+flex-wrap: wrap;
+margin-right: 40px;
+}
+
+.movie-card :hover{
+    transform: scale(1.05);
+}
+
+.movies{
+
+    overflow: hidden;
+    width: 100%;
+    
+}
+.movie img{
+    height: 100%;
+    width: 300px;
+    
+}
+
+
+.movie{
+    
+    animation: loard 25s linear infinite;
+}
+@keyframes loard {
+    
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.movie :hover{
+    transform: scale(1.05);
+}
+
+.kids{
+    display: flex;
+    height: auto;
+    margin-top: 20px;
+    justify-self: center;
+}
+
+#moto{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(230, 227, 224);
+}
+
+.moto{
+    justify-content: center;
+   margin-top: 25px;
+}
+h1{
+    text-shadow: 4px;
+    text-transform: capitalize;
+}
+.moto :hover{
+    transform: scale(1.07);
+}
+
+.secondpage{
+    background-color: rgb(39, 39, 52);
+}

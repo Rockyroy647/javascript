@@ -1,0 +1,112 @@
+ 
+ *{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    overflow: hidden;
+ }
+ #firstnave{
+   padding-left: 10px;
+ }
+ .nave{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    text-transform: lowercase;
+    font-weight: bold;
+    text-wrap: calc(2.0);
+    
+ }
+
+ .dog{
+margin-left: auto;
+gap: 10px;
+font-weight:bolder;
+ }
+
+
+
+#lence{
+background-color: black;
+   padding: 20px;
+   border: none;
+}
+.cart{
+   display: flex;
+   text-align: center;
+   gap: 15px;
+   text-transform: capitalize;
+   justify-content: space-between;
+}
+.cart h2{
+   margin: 0;
+   background: transparent;
+}
+
+.cart span{
+   color: white;
+   font-weight:bolder;
+}
+
+
+a{
+   text-decoration: none;
+   color: white;
+}
+.cart input{
+   margin-bottom: 40px;
+   padding: 10px 10px;
+   gap: 30px;
+   border-radius: 10px;
+   margin-left: 300px;
+}
+.cart span{
+   margin-left: auto;
+   gap: 100px;
+}
+.photo{
+   overflow: hidden;
+   animation: banner 20s steps(2) infinite;
+}
+.galary{display: flex;
+    justify-content: center;
+    gap: 20px;
+   }
+
+@keyframes  photo {
+    
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.galary :hover{
+    transform: scale(1.05);
+}
+/*second page*/
+#stant{
+   justify-content:space-evenly
+
+
+}
+
+
+.stant{
+   display: flex;
+   height: 500px;
+   width: 900px;
+gap: 60px;
+margin-top: 20px;
+}
+
+.stant :hover{
+ 
+   transform: scale(1.05);
+}
+
+#back{
+   background-color: blue;
+}

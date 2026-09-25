@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+   
+}
+img{
+    height: 400px;
+    width: 400px;
+}
+secondmain:hover{
+    transform: scaleX(0.2s);
+}
